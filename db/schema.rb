@@ -22,6 +22,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_18_092526) do
     t.integer "role"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "role"
   end
 
 end

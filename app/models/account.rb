@@ -1,3 +1,3 @@
 class Account < ApplicationRecord
-  enum role: [:admin, :user]
+  enum role: { admin: 'admin', user: 'user' }
 end

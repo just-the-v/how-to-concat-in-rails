@@ -4,6 +4,6 @@ FactoryBot.define do
     last_name { Faker::Name.last_name }
     phone { Faker::PhoneNumber.phone_number }
     email { Faker::Internet.email }
-    role { 1 }
+    role { 'user' }
   end
 end
