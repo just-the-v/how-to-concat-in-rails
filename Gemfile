@@ -14,6 +14,7 @@ group :development, :test do
   gem 'rspec-core'
   gem 'faker'
   gem 'rspec-rails', '~> 6.0.0'
+  gem 'benchmark'
 end
 
 
