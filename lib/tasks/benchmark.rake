@@ -16,6 +16,13 @@ namespace :benchmark do
           "#{account[0]} #{account[1]} (#{account[2]}), can be contacted at #{account[3]} or #{account[4]}"
         end
       end
+
+      x.report("Using Raw SQL") do
+        Account.select(
+          "CONCAT(first_name, ' ', last_name, ' (', role, '), can be contacted at ', email, ' or ', phone) as insql_concatenated_string"
+        ).map(&:insql_concatenated_string)
+      end
+
       x.report("Using Scenic") do
         AccountInformation.pluck(:concatenated_string)
       end
