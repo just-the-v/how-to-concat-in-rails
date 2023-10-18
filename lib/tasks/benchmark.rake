@@ -16,6 +16,9 @@ namespace :benchmark do
           "#{account[0]} #{account[1]} (#{account[2]}), can be contacted at #{account[3]} or #{account[4]}"
         end
       end
+      x.report("Using Scenic") do
+        AccountInformation.pluck(:concatenated_string)
+      end
 
       x.report("Using virtual column") do
         Account.all.pluck(:account_information)
