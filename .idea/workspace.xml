@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c660ac2d-4091-47a6-b256-3a5c3d00fc5f" name="Changes" comment="" />
+    <list default="true" id="c660ac2d-4091-47a6-b256-3a5c3d00fc5f" name="Changes" comment=":lipstick: add arel alternative to benchmark">
+      <change beforePath="$PROJECT_DIR$/.idea/how-to-concat-in-in-rails.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/how-to-concat-in-in-rails.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/account_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,31 +48,34 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2Wvl1L16aCDSXKf4Hl79OIAIogr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ruby.rails.projectView.checked": "true",
-    "ruby.structure.view.model.defaults.configured": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Rails.how-to-concat-in-in-rails">
     <configuration name="how-to-concat-in-in-rails" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="how-to-concat-in-in-rails" />
@@ -154,9 +164,67 @@
       <updated>1697620717675</updated>
       <workItem from="1697620719374" duration="1280000" />
     </task>
+    <task id="LOCAL-00001" summary=":see_no_evil: remove .idea files">
+      <option name="closed" value="true" />
+      <created>1697623786933</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697623786933</updated>
+    </task>
+    <task id="LOCAL-00002" summary=":sparkles: add scenic view">
+      <option name="closed" value="true" />
+      <created>1697624831259</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697624831259</updated>
+    </task>
+    <task id="LOCAL-00003" summary=":sparkles: add raw sql">
+      <option name="closed" value="true" />
+      <created>1697624844792</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697624844792</updated>
+    </task>
+    <task id="LOCAL-00004" summary=":card_file_box: add scenic view in schema">
+      <option name="closed" value="true" />
+      <created>1697624874375</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697624874375</updated>
+    </task>
+    <task id="LOCAL-00005" summary=":lipstick: fix sentence">
+      <option name="closed" value="true" />
+      <created>1697624979518</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697624979518</updated>
+    </task>
+    <task id="LOCAL-00006" summary=":lipstick: add arel alternative to benchmark">
+      <option name="closed" value="true" />
+      <created>1697625977960</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697625977960</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=":see_no_evil: remove .idea files" />
+    <MESSAGE value=":sparkles: add scenic view" />
+    <MESSAGE value=":sparkles: add raw sql" />
+    <MESSAGE value=":card_file_box: add scenic view in schema" />
+    <MESSAGE value=":lipstick: fix sentence" />
+    <MESSAGE value=":lipstick: add arel alternative to benchmark" />
+    <option name="LAST_COMMIT_MESSAGE" value=":lipstick: add arel alternative to benchmark" />
   </component>
 </project>
