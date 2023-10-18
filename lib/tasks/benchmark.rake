@@ -14,8 +14,21 @@ namespace :benchmark do
         end
       end
 
+      x.report("Using .select + .map") do
+        Account.select(:first_name, :last_name, :role, :email, :phone).map do |account|
+          "#{account.first_name} #{account.last_name} (#{account.role}), can be contacted at #{account.email} or #{account.phone}"
+        end
+      end
+
       x.report("Using .pluck") do
         Account.all.pluck(:first_name, :last_name, :role, :email, :phone).map do |info|
+          "#{info[0]} #{info[1]} (#{info[2]}), can be contacted at #{info[3]} or #{info[4]}"
+        end
+      end
+
+      x.report("Using .select + .pluck") do
+        columns = %i[first_name last_name role email phone]
+        Account.select(*columns).pluck(*columns).map do |info|
           "#{info[0]} #{info[1]} (#{info[2]}), can be contacted at #{info[3]} or #{info[4]}"
         end
       end
@@ -63,9 +76,21 @@ namespace :benchmark do
           "#{account.first_name} #{account.last_name} (#{account.role}), can be contacted at #{account.email} or #{account.phone}"
         end
       end
+      x.report("Using .select + .map") do
+        Account.select(:first_name, :last_name, :role, :email, :phone).map do |account|
+          "#{account.first_name} #{account.last_name} (#{account.role}), can be contacted at #{account.email} or #{account.phone}"
+        end
+      end
 
       x.report("Using .pluck") do
         Account.all.pluck(:first_name, :last_name, :role, :email, :phone).map do |info|
+          "#{info[0]} #{info[1]} (#{info[2]}), can be contacted at #{info[3]} or #{info[4]}"
+        end
+      end
+
+      x.report("Using .select + .pluck") do
+        columns = %i[first_name last_name role email phone]
+        Account.select(*columns).pluck(*columns).map do |info|
           "#{info[0]} #{info[1]} (#{info[2]}), can be contacted at #{info[3]} or #{info[4]}"
         end
       end
