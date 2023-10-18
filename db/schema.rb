@@ -25,7 +25,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_18_102410) do
 
 
   create_view "account_informations", sql_definition: <<-SQL
-      SELECT concat('(', accounts.first_name, ' ', accounts.last_name, ' (', accounts.role, '), can be contacted at ', accounts.email, ' or ', accounts.phone, ')') AS concatenated_string
+      SELECT concat(accounts.first_name, ' ', accounts.last_name, ' (', accounts.role, '), can be contacted at ', accounts.email, ' or ', accounts.phone) AS concatenated_string
      FROM accounts;
   SQL
 end
